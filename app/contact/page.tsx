@@ -3,6 +3,7 @@ import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import { AnimatedSection } from "../components/AnimatedSection";
 
 const socials = [
 	{
@@ -31,7 +32,8 @@ export default function Example() {
 			<Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
-					{socials.map((s) => (
+					{socials.map((s, i) => (
+						<AnimatedSection key={s.label} delay={i * 0.1}>
 						<Card>
 							<Link
 								href={s.href}
@@ -55,6 +57,7 @@ export default function Example() {
 								</div>
 							</Link>
 						</Card>
+						</AnimatedSection>
 					))}
 				</div>
 			</div>
