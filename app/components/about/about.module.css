@@ -1,0 +1,17 @@
+.hover {
+  transition: transform 0.2s ease;
+}
+
+.hover:hover {
+  transform: translateX(0.25rem);
+}
+
+@media (max-width: 640px) {
+  .textAlign {
+    text-align: center;
+  }
+
+  .blockAlign {
+    align-self: center;
+  }
+}
