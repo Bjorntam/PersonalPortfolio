@@ -56,7 +56,7 @@ export default async function ProjectsPage() {
           <AnimatedSection>
           <Card>
             <Link href={`/projects/${featured.slug}`}>
-              <article className="relative w-full h-full p-4 md:p-8">
+              <article className="relative w-full h-full p-4 md:p-8 pb-14 md:pb-16">
                 <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
                     {featured.date ? (
