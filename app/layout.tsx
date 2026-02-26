@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     title: "bjorn.dev",
     description:
       "Building digital experiences from the ground up.",
-    url: "https://bjorn.dev",
-    siteName: "bjorn.dev",
+    url: "https://bjoorn.site",
+    siteName: "bjoorn.site",
     images: [
       {
-        url: "https://bjorn.dev/og.png",
+        url: "https://bjoorn.site/bjorndev.png",
         width: 1920,
         height: 1080,
       },
@@ -36,10 +36,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: "Chronark",
-    card: "summary_large_image",
   },
   icons: {
     shortcut: "/favicon.png",
