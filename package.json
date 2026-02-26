@@ -1,5 +1,5 @@
 {
-  "name": "chronark.com",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -25,7 +25,8 @@
     "rehype-pretty-code": "^0.10.1",
     "rehype-slug": "^6.0.0",
     "remark-gfm": "3.0.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "yet-another-react-lightbox": "^3.29.1"
   },
   "devDependencies": {
     "@opentelemetry/api": "1.6.0",

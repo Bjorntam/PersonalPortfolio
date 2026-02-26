@@ -6,7 +6,7 @@ export const person = {
 	name: "Ingemar Bjorn",
 	role: "Full Stack / Unity Developer",
 	avatar: "https://github.com/bjorntam.png",
-	email: "Ingemarbjorn.r@gmail.com",
+	email: "ingemarbjorn.r@gmail.com",
 	location: "Philippines",
 	languages: [,"Filipino", "Bicolano","English"],
 } as const;
@@ -18,22 +18,16 @@ export const social: Array<{
 	essential?: boolean;
 }> = [
 	{
-		name: "Twitter",
-		icon: Twitter,
-		link: "https://twitter.com/chronark_",
-		essential: true,
-	},
-	{
 		name: "GitHub",
 		icon: Github,
-		link: "https://github.com/chronark",
+		link: "https://github.com/Bjorntam",
 		essential: true,
 	},
 	{
 		name: "LinkedIn",
 		icon: Linkedin,
-		link: "https://linkedin.com",
-		essential: false,
+		link: "https://www.linkedin.com/in/ingemar-bjorn-raymundo-1a1b8b368/",
+		essential: true,
 	},
 	{
 		name: "Email",
@@ -78,7 +72,7 @@ export const about = {
 			{
 				company: "ValACE",
 				timeframe: "June 2025 – December 2025",
-				role: "Web App Developer | Game Developer",
+				role: "Game Developer | Web App Developer ",
 				achievements: [
 					"Developed ValPLAY, an Android educational platform featuring interactive tracing and shape-recognition games (Unity + Firebase).",
 					"Built and maintained a Web MS supporting the game database",
